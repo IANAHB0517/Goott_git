@@ -26,7 +26,7 @@ public class GetMemberPointService implements MemberService {
 
 	@Override
 	public MemberFactory execute(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException { 
+			throws ServletException, IOException {
 		
 		resp.setContentType("application/json; charset=utf-8;");
 		PrintWriter out =  resp.getWriter();
@@ -42,7 +42,7 @@ public class GetMemberPointService implements MemberService {
 		
 		System.out.println("페이지 번호 : " + pageNo);
 		
-		MemberDAO mdao = MemberDAOImpl.getInatance();
+		MemberDAO mdao = MemberDAOImpl.getInance();
 		
 		
 		JSONObject json = new JSONObject();
