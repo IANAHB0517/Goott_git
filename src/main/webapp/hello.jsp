@@ -9,6 +9,7 @@ pageEncoding="UTF-8"%> <%@ page import="com.miniproj.member.dao.DBConnection" %>
   </head>
   <body>
     <h1>Hello, JSP!</h1>
+       <h1>Hello, JSP!</h1>
     <% out.println(DBConnection.dbConnect()); %>
   </body>
 </html>
