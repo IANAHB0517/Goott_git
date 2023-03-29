@@ -28,7 +28,7 @@ import com.miniproj.vodto.MemberDTO;
 
 public class RegisterMemberService implements MemberService {
 
-	// 파일 업로드를 위한 세팅
+	// 파일 업로드를 위한 세팅 
 	// (하나의 파일 블럭이 들어오는 버터 사이즈: 5MB)
 	private static final int MEMORY_THRESHOLD = 1024 * 1024 * 5;  
 	private static final int MAX_FILE_SIZE = 1024 * 1024 * 10;  // 최대 파일 업로드 크기 (10MB)

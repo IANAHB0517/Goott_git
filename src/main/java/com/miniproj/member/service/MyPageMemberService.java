@@ -26,7 +26,7 @@ public class MyPageMemberService implements MemberService {
 			throws ServletException, IOException {
 		// 마이페이지   
 		
-		BoardDAO bdao = BoardDAOImpl.getInstance();
+		BoardDAO bdao = BoardDAOImpl.getInstance(); 
 		
 		// 페이지 번호
 		int pageNo = -1;

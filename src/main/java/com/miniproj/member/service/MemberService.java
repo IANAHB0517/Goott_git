@@ -8,6 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.miniproj.member.controller.MemberFactory;
 
-public interface MemberService {
+public interface MemberService { 
 	public abstract MemberFactory execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException ;
 }

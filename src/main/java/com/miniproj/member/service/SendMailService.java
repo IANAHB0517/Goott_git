@@ -19,7 +19,7 @@ public class SendMailService implements MemberService {
 
 	@Override
 	public MemberFactory execute(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException {
+			throws ServletException, IOException { 
 		resp.setContentType("application/json; charset=utf-8"); // json 형식으로 응답
 		PrintWriter out = resp.getWriter();
 		

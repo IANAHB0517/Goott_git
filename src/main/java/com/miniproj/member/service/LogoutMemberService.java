@@ -19,7 +19,7 @@ public class LogoutMemberService implements MemberService {
 		// 로그아웃을 요청한 클라이언트의 세션객체를 얻어옴
 		 HttpSession ses = req.getSession(); 
 		 ses.removeAttribute("loginMember");
-		 ses.invalidate(); // 세션객체 만료. --> 새로운 세션이 생성
+		 ses.invalidate(); // 세션객체 만료. --> 새로운 세션이 생성 
 		 
 		 MemberFactory mf = MemberFactory.getInstance();
 		 mf.setRedirect(true);

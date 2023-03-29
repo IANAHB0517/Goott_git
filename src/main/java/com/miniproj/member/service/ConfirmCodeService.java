@@ -18,7 +18,7 @@ public class ConfirmCodeService implements MemberService {
 	public MemberFactory execute(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
-		// 인증코드 확인하는 서비스		
+		// 인증코드 확인하는 서비스	 	
 		String uic = req.getParameter("uic");
 		System.out.println("user input code : " + uic);
 		
