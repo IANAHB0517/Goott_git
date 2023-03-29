@@ -14,6 +14,7 @@ public class PagingInfo {
 	private int endNumofCurrentPagingBlock; // 현재 페이징 블럭의 끝번호
 	
 	
+	
 	public int getViewPostCntPerPage() {
 		return this.viewPostCntPerPage;
 	}

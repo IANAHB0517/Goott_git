@@ -17,5 +17,6 @@ public class IpCheak {
 		ipAddr = br.readLine();
 		
 		return ipAddr;
+		
 	}
 }
